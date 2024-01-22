@@ -139,9 +139,6 @@ span.navbar-text {
     transform: scale(0);
 	transition: 0.3s ease-in-out;
 }
-.social-icon a:hover::before {
-    transform: scale(1);
-}
 .social-icon a img {
 	width: 40%;
 	z-index: 1;
