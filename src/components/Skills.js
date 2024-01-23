@@ -31,7 +31,13 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+              <Carousel 
+                responsive={responsive} 
+                infinite={true} 
+                autoPlay={true} 
+                autoPlaySpeed={5000} // Speed of autoPlay in milliseconds
+                className="owl-carousel owl-theme skill-slider"
+              >
                 <div className="item">
                   <FaHtml5 size={60} color="#E34F26" />
                   <h5>HTML</h5>
@@ -42,7 +48,7 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <FaJsSquare size={60} color="#F7DF1E" />
-                  <h5>Javascript</h5>
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
                   <FaReact size={60} color="#61DAFB" />
