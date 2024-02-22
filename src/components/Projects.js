@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import Connecto from "../assets/img/Connecto.png";
+import Pro from "../assets/img/Pro.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -18,14 +19,16 @@ export const Projects = () => {
       link:"https://connecto-six.vercel.app/",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Pro Resume Crafters",
+      description: "Expert Resume Writing Services to Help You Land Your Dream Job",
+      imgUrl: Pro,
+      link:"https://proelite.vercel.app/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "WebCrafters Wizards",
+      description: "Unleash Your Digital Magic",
       imgUrl: projImg3,
+      link:"https://webcraft-wizards.vercel.app/"
     },
     {
       title: "Business Startup",
