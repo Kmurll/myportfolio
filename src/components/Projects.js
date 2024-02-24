@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import Connecto from "../assets/img/Connecto.png";
 import Pro from "../assets/img/Pro.png"
+import wizards from "../assets/img/wizards.jpeg"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -27,23 +28,8 @@ export const Projects = () => {
     {
       title: "WebCrafters Wizards",
       description: "Unleash Your Digital Magic",
-      imgUrl: projImg3,
+      imgUrl: wizards,
       link:"https://webcraft-wizards.vercel.app/"
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
     },
   ];
 
