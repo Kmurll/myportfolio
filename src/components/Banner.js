@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my work of art</span>
                 <h1>{`Hi! I'm Kelvin`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>🚀 By day, I sling code and wrestle with algorithms to create digital wonders. I'm fluent in programming languages and speak the secret dialect of bugs. Some call me a software engineer; I like to think of myself as a digital maestro orchestrating symphonies of 1s and 0s.</p>
-                  <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => document.getElementById('footer').scrollIntoView({ behavior: 'smooth' })}>Let's Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

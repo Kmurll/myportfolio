@@ -55,7 +55,7 @@ export const NavBar = () => {
                 <a href="https://github.com/Kmurll" target="_blank" rel="noopener noreferrer" style={{ color: '#fafbfc' }}><FaGithub /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let's Connect</span></button>
+              <button className="vvd" onClick={() => document.getElementById('footer').scrollIntoView({ behavior: 'smooth' })}><span>Let's Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>

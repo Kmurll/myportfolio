@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import Connecto from "../assets/img/Connecto.png";
 import Pro from "../assets/img/Pro.png"
 import wizards from "../assets/img/wizards.jpeg"
+import Cappy from "../assets/img/Cappy.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -30,6 +31,12 @@ export const Projects = () => {
       description: "Unleash Your Digital Magic",
       imgUrl: wizards,
       link:"https://webcraft-wizards.vercel.app/"
+    },
+    {
+      title: "CappyVerse",
+      description: "The imaginative maestro behind the curtain of visual storytelling",
+      imgUrl: Cappy,
+      link:"https://cappy-portfolio.vercel.app/"
     },
   ];
 

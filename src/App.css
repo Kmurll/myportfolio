@@ -116,6 +116,7 @@ span.navbar-text {
 .social-icon {
     display: inline-block;
     margin-left: 14px;
+    justify-content: center; 
 }
 .social-icon a {
     width: 42px;
@@ -547,6 +548,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
 }
 .newsletter-bx {
   background: #FFFFFF;
@@ -618,3 +620,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
